@@ -1,1 +1,162 @@
-# enhansome-cloud-guardrails
+# Awesome Cloud Guardrails with stars
+
+<p align="center">
+  <a href="https://cloudguardrail.com"><img src="https://img.shields.io/badge/CloudGuardrail-Live%20Site-0ea5e9?style=for-the-badge" alt="CloudGuardrail Site" /></a>
+  <a href="https://cloudguardrail.com/tools"><img src="https://img.shields.io/badge/Tools-Directory-22c55e?style=for-the-badge" alt="Tools Directory" /></a>
+  <a href="https://github.com/g4r-tech/awesome-cloud-guardrails/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-f59e0b?style=for-the-badge" alt="PRs Welcome" /></a>
+</p>
+
+> Curated cloud security tools for teams building **real guardrails** across posture, identity, runtime, IaC, and compliance.
+
+## Why This Exists
+
+Most lists are link dumps. This repo is a schema-driven dataset for a public directory that prioritizes signal, category clarity, and practical implementation value.
+
+* Website: <https://cloudguardrail.com>
+* Live directory: <https://cloudguardrail.com/tools>
+* Contribute: [Open a PR](https://github.com/g4r-tech/awesome-cloud-guardrails/pulls) ⭐ 70 | 🐛 1 | 🌐 JavaScript | 📅 2026-05-21
+
+## Dataset Snapshot
+
+| Metric                           | Value |
+| -------------------------------- | ----: |
+| Total tools                      |    70 |
+| Categories                       |     8 |
+| Cloud support values in schema   |     4 |
+| Compliance frameworks referenced |     7 |
+| Open Source tools                |    61 |
+| Commercial tools                 |     7 |
+| Freemium tools                   |     2 |
+
+## Allowed Schema Values
+
+* `category`: CSPM, CNAPP, IaC Security, Secrets Scanning, Container Security, Compliance as Code, SBOM & Supply Chain, Cloud IAM Auditing
+* `clouds`: AWS, Azure, GCP, Multi
+* `type`: Open Source, Commercial, Freemium
+
+## Tool Index
+
+### CSPM (7)
+
+| Tool                                                                                                          | Type        | Clouds          | Why It Stands Out                                                                                   |
+| ------------------------------------------------------------------------------------------------------------- | ----------- | --------------- | --------------------------------------------------------------------------------------------------- |
+| [AWS Inventory](https://github.com/nccgroup/aws-inventory) ⭐ 738 \| 🐛 25 \| 🌐 Python \| 📅 2024-04-05       | Open Source | AWS             | Builds comprehensive cross-region AWS asset inventories for exposure and drift analysis.            |
+| [CloudMapper](https://github.com/duo-labs/cloudmapper) ⭐ 6,288 \| 🐛 210 \| 🌐 JavaScript \| 📅 2024-07-15    | Open Source | AWS             | Visualizes AWS account relationships and attack paths for security review.                          |
+| [CloudSploit Scans](https://github.com/cloudsploit/scans) ⭐ 3,764 \| 🐛 211 \| 🌐 JavaScript \| 📅 2026-07-28 | Open Source | AWS             | Large set of AWS security checks for identifying cloud misconfigurations at scale.                  |
+| [Prowler](https://prowler.com)                                                                                | Open Source | AWS, Azure, GCP | Large benchmark coverage with pragmatic cloud misconfiguration checks.                              |
+| [Scout Suite](https://github.com/nccgroup/ScoutSuite) ⭐ 7,788 \| 🐛 295 \| 🌐 Python \| 📅 2025-09-23         | Open Source | AWS, Azure, GCP | Multi-cloud security audit with visualized findings and drill-down.                                 |
+| [Security Monkey](https://github.com/netflix/security_monkey) ⚠️ Archived                                     | Open Source | AWS             | Monitors cloud account changes and flags policy and configuration drift.                            |
+| [ZeusCloud](https://github.com/Zeus-Labs/ZeusCloud) ⭐ 734 \| 🐛 129 \| 🌐 TypeScript \| 📅 2023-10-26         | Open Source | AWS             | Open-source CSPM that builds an asset graph and prioritizes misconfigurations by exploit-path risk. |
+
+### CNAPP (6)
+
+| Tool                                                                              | Type       | Clouds | Why It Stands Out                                                                       |
+| --------------------------------------------------------------------------------- | ---------- | ------ | --------------------------------------------------------------------------------------- |
+| [Lacework](https://www.lacework.com)                                              | Commercial | Multi  | Behavior-based CNAPP detection across cloud, containers, and identities.                |
+| [Orca Security](https://orca.security)                                            | Commercial | Multi  | Agentless CNAPP platform focused on broad cloud asset and risk visibility.              |
+| [Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud)                     | Commercial | Multi  | Broad CNAPP suite spanning code, runtime, and cloud posture domains.                    |
+| [Sysdig Secure](https://sysdig.com/products/secure/)                              | Commercial | Multi  | Combines cloud posture, runtime threat detection, and container vulnerability controls. |
+| [Tenable Cloud Security](https://www.tenable.com/products/tenable-cloud-security) | Commercial | Multi  | CNAPP offering with strong posture analytics and entitlement risk visibility.           |
+| [Wiz](https://www.wiz.io)                                                         | Commercial | Multi  | Graph-based cloud attack path visibility across workloads and identities.               |
+
+### IaC Security (11)
+
+| Tool                                                                                                                            | Type        | Clouds          | Why It Stands Out                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------- | ----------- | --------------- | ----------------------------------------------------------------------------------------------------------- |
+| [cdk-nag](https://github.com/cdklabs/cdk-nag) ⭐ 1,032 \| 🐛 50 \| 🌐 TypeScript \| 📅 2026-08-10                                | Open Source | AWS             | Applies security and compliance rules to AWS CDK constructs during development.                             |
+| [cfn-nag](https://github.com/stelligent/cfn_nag) ⭐ 1,308 \| 🐛 84 \| 🌐 Ruby \| 📅 2024-08-01                                   | Open Source | AWS             | Lints CloudFormation templates to detect risky security configurations before deploy.                       |
+| [CFripper](https://github.com/skyscanner/cfripper) ⭐ 414 \| 🐛 5 \| 🌐 Python \| 📅 2026-08-12                                  | Open Source | AWS             | Static analysis for CloudFormation templates that finds risky permissions and misconfigurations pre-deploy. |
+| [Checkov](https://www.checkov.io)                                                                                               | Open Source | AWS, Azure, GCP | Policy-as-code scanning for Terraform, Kubernetes, and CloudFormation.                                      |
+| [CloudFormation Guard](https://github.com/aws-cloudformation/cloudformation-guard) ⭐ 1,383 \| 🐛 52 \| 🌐 Rust \| 📅 2026-08-10 | Open Source | AWS             | Policy-as-code validation for CloudFormation templates to block insecure infrastructure before deployment.  |
+| [KICS](https://github.com/Checkmarx/kics) ⭐ 2,684 \| 🐛 325 \| 🌐 Open Policy Agent \| 📅 2026-08-12                            | Open Source | Multi           | Static analysis engine for Terraform, Kubernetes, and other IaC formats.                                    |
+| [Snyk IaC](https://snyk.io/product/iac-security/)                                                                               | Freemium    | AWS, Azure, GCP | Developer-first IaC checks tightly integrated into pull request flow.                                       |
+| [Terragoat](https://github.com/bridgecrewio/terragoat) ⭐ 1,304 \| 🐛 60 \| 🌐 HCL \| 📅 2025-07-13                              | Open Source | AWS             | Deliberately vulnerable Terraform stack for testing IaC misconfiguration detection.                         |
+| [Terrascan](https://github.com/tenable/terrascan) ⚠️ Archived                                                                   | Open Source | Multi           | Policy-based IaC scanner with broad cloud provider and framework coverage.                                  |
+| [tfsec](https://aquasecurity.github.io/tfsec/)                                                                                  | Open Source | AWS, Azure, GCP | Fast local Terraform static analysis with clear remediation output.                                         |
+| [Yor](https://github.com/bridgecrewio/yor) ⭐ 932 \| 🐛 10 \| 🌐 Go \| 📅 2026-08-09                                             | Open Source | AWS, Azure, GCP | Automatically tags IaC resources with traceability metadata to strengthen ownership and control mapping.    |
+
+### Secrets Scanning (6)
+
+| Tool                                                                                                           | Type        | Clouds | Why It Stands Out                                                                                      |
+| -------------------------------------------------------------------------------------------------------------- | ----------- | ------ | ------------------------------------------------------------------------------------------------------ |
+| [detect-secrets](https://github.com/Yelp/detect-secrets) ⭐ 4,616 \| 🐛 174 \| 🌐 Python \| 📅 2026-04-02       | Open Source | Multi  | Pre-commit focused secret scanner with baseline workflows for noisy repositories.                      |
+| [git-secrets](https://github.com/awslabs/git-secrets) ⭐ 13,369 \| 🐛 131 \| 🌐 Shell \| 📅 2025-09-17          | Open Source | Multi  | Prevents committing AWS credentials and other secret patterns by hooking Git commit and history scans. |
+| [GitGuardian ggshield](https://github.com/GitGuardian/ggshield) ⭐ 1,985 \| 🐛 54 \| 🌐 Python \| 📅 2026-08-12 | Freemium    | Multi  | Developer-friendly secret detection in commits and CI pipelines with strong accuracy.                  |
+| [Gitleaks](https://gitleaks.io)                                                                                | Open Source | Multi  | Simple, fast, and CI-friendly scanner for leaked credentials.                                          |
+| [shhgit](https://github.com/eth0izzle/shhgit) ⭐ 3,975 \| 🐛 34 \| 🌐 JavaScript \| 📅 2025-02-28               | Open Source | Multi  | Real-time GitHub secret monitoring to quickly surface exposed credentials.                             |
+| [TruffleHog](https://trufflesecurity.com/trufflehog)                                                           | Open Source | Multi  | High-signal secret discovery with verified credential checks.                                          |
+
+### Container Security (7)
+
+| Tool                                                                                                         | Type        | Clouds | Why It Stands Out                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------ | ----------- | ------ | ---------------------------------------------------------------------------------------------------------------------- |
+| [Aqua Trivy](https://trivy.dev)                                                                              | Open Source | Multi  | Single CLI for image, filesystem, and IaC vulnerability checks.                                                        |
+| [Clair](https://github.com/quay/clair) ⭐ 11,046 \| 🐛 58 \| 🌐 Go \| 📅 2026-08-11                           | Open Source | Multi  | Performs static vulnerability analysis of container images using continuously ingested CVE feeds across distributions. |
+| [Falco](https://falco.org)                                                                                   | Open Source | Multi  | Runtime threat detection for containers and Kubernetes workloads.                                                      |
+| [kube-bench](https://github.com/aquasecurity/kube-bench) ⭐ 8,139 \| 🐛 94 \| 🌐 Go \| 📅 2026-08-10          | Open Source | Multi  | Runs CIS Kubernetes benchmark checks against cluster nodes and control planes.                                         |
+| [kube-hunter](https://github.com/aquasecurity/kube-hunter) ⭐ 5,077 \| 🐛 82 \| 🌐 Python \| 📅 2024-03-19    | Open Source | Multi  | Performs active reconnaissance to identify exposed Kubernetes security weaknesses.                                     |
+| [Kubescape](https://github.com/kubescape/kubescape) ⭐ 11,600 \| 🐛 120 \| 🌐 Go \| 📅 2026-08-12             | Open Source | Multi  | Kubernetes posture scanner with framework mappings and risk prioritization guidance.                                   |
+| [Trivy Operator](https://github.com/aquasecurity/trivy-operator) ⭐ 1,919 \| 🐛 207 \| 🌐 Go \| 📅 2026-08-09 | Open Source | Multi  | Brings continuous vulnerability and configuration scanning into Kubernetes clusters.                                   |
+
+### Compliance as Code (11)
+
+| Tool                                                                                                                                 | Type        | Clouds          | Why It Stands Out                                                                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ----------- | --------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [Automated Security Helper (ASH)](https://github.com/awslabs/automated-security-helper) ⭐ 674 \| 🐛 35 \| 🌐 Python \| 📅 2026-08-12 | Open Source | AWS             | Runs multiple code and IaC security scanners in isolated containers with one aggregated security report.              |
+| [aws-nuke](https://github.com/rebuy-de/aws-nuke) ⚠️ Archived                                                                         | Open Source | AWS             | Automates safe teardown of AWS resources to enforce clean account baselines.                                          |
+| [Cloud Custodian](https://cloudcustodian.io)                                                                                         | Open Source | AWS, Azure, GCP | Policy-driven cloud resource governance and automated remediation.                                                    |
+| [Cloud-Nuke](https://github.com/gruntwork-io/cloud-nuke) ⭐ 3,173 \| 🐛 0 \| 🌐 Go \| 📅 2026-07-27                                   | Open Source | AWS             | Deletes cloud resources at scale to enforce clean account baselines and reduce stale attack surface.                  |
+| [CloudQuery](https://github.com/cloudquery/cloudquery) ⭐ 6,480 \| 🐛 165 \| 🌐 Go \| 📅 2026-08-12                                   | Open Source | Multi           | Extracts cloud configuration data into SQL tables for policy checks and reporting.                                    |
+| [Conftest](https://www.conftest.dev)                                                                                                 | Open Source | Multi           | Tests structured configuration files such as Kubernetes, Terraform, and Dockerfiles against OPA Rego policies.        |
+| [Kubewarden](https://github.com/kubewarden/kubewarden-controller) ⭐ 232 \| 🐛 133 \| 🌐 Rust \| 📅 2026-08-12                        | Open Source | Multi           | Admission policy framework using WebAssembly for portable Kubernetes enforcement.                                     |
+| [Kyverno](https://github.com/kyverno/kyverno) ⭐ 8,029 \| 🐛 568 \| 🌐 Go \| 📅 2026-08-12                                            | Open Source | Multi           | Kubernetes-native policy engine for enforceable guardrails and admission controls.                                    |
+| [OPA Gatekeeper](https://github.com/open-policy-agent/gatekeeper) ⭐ 4,261 \| 🐛 172 \| 🌐 Go \| 📅 2026-08-10                        | Open Source | Multi           | Enforces OPA policies in Kubernetes through admission control with reusable constraint templates and audit reporting. |
+| [Open Policy Agent](https://www.openpolicyagent.org)                                                                                 | Open Source | Multi           | General-purpose policy engine used from CI to admission control.                                                      |
+| [Steampipe](https://steampipe.io)                                                                                                    | Open Source | Multi           | Query cloud APIs with SQL for rapid compliance checks and dashboards.                                                 |
+
+### SBOM & Supply Chain (6)
+
+| Tool                                                                                              | Type        | Clouds | Why It Stands Out                                                                                        |
+| ------------------------------------------------------------------------------------------------- | ----------- | ------ | -------------------------------------------------------------------------------------------------------- |
+| [Cosign](https://github.com/sigstore/cosign) ⭐ 6,202 \| 🐛 160 \| 🌐 Go \| 📅 2026-08-11          | Open Source | Multi  | Signs and verifies container images and artifacts to enforce trusted supply chain provenance.            |
+| [Dependency-Track](https://dependencytrack.org)                                                   | Open Source | Multi  | Continuously analyzes SBOMs to monitor component risk across application portfolios over time.           |
+| [Grype](https://github.com/anchore/grype) ⭐ 12,722 \| 🐛 399 \| 🌐 Go \| 📅 2026-08-10            | Open Source | Multi  | Vulnerability scanner designed to pair directly with generated SBOMs.                                    |
+| [in-toto](https://in-toto.io)                                                                     | Open Source | Multi  | Generates cryptographic attestations for each supply chain step to detect tampering in build pipelines.  |
+| [OSV-Scanner](https://github.com/google/osv-scanner) ⭐ 10,818 \| 🐛 127 \| 🌐 Go \| 📅 2026-08-12 | Open Source | Multi  | Matches open-source dependencies against the OSV vulnerability database for accurate, actionable triage. |
+| [Syft](https://github.com/anchore/syft) ⭐ 9,394 \| 🐛 625 \| 🌐 Go \| 📅 2026-08-12               | Open Source | Multi  | Developer-friendly SBOM generator with broad package ecosystem support.                                  |
+
+### Cloud IAM Auditing (16)
+
+| Tool                                                                                                              | Type        | Clouds          | Why It Stands Out                                                                                                    |
+| ----------------------------------------------------------------------------------------------------------------- | ----------- | --------------- | -------------------------------------------------------------------------------------------------------------------- |
+| [Cartography](https://github.com/lyft/cartography) ⭐ 4,004 \| 🐛 112 \| 🌐 Python \| 📅 2026-08-12                | Open Source | Multi           | Graphs cloud assets and trust relationships to uncover risky access paths.                                           |
+| [cloudfox](https://github.com/bishopfox/cloudfox) ⭐ 2,553 \| 🐛 12 \| 🌐 Go \| 📅 2026-05-26                      | Open Source | AWS, Azure, GCP | Enumerates cloud attack paths and identity exposure from an attacker perspective for rapid triage.                   |
+| [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat) ⭐ 3,692 \| 🐛 23 \| 🌐 Python \| 📅 2026-04-28        | Open Source | AWS             | Purpose-built AWS scenarios for validating detection and IAM attack-path readiness.                                  |
+| [Cloudsplaining](https://github.com/salesforce/cloudsplaining) ⭐ 2,242 \| 🐛 28 \| 🌐 JavaScript \| 📅 2026-08-11 | Open Source | AWS             | Identifies risky IAM permissions and privilege-escalation patterns in AWS policies.                                  |
+| [CloudTracker](https://github.com/duo-labs/cloudtracker) ⭐ 913 \| 🐛 22 \| 🌐 Python \| 📅 2021-12-17             | Open Source | AWS             | Compares CloudTrail activity to granted IAM permissions to spot over-privileged identities.                          |
+| [iam-floyd](https://github.com/udondan/iam-floyd) ⭐ 573 \| 🐛 8 \| 🌐 TypeScript \| 📅 2026-08-13                 | Open Source | AWS             | Generates AWS IAM policies programmatically with a fluent interface to reduce policy authoring mistakes.             |
+| [IAMSpy](https://github.com/WithSecureLabs/IAMSpy) ⭐ 234 \| 🐛 4 \| 🌐 Python \| 📅 2026-06-10                    | Open Source | AWS             | Analyzes IAM permissions and trust paths to surface unintended access and escalation opportunities.                  |
+| [Pacu](https://github.com/RhinoSecurityLabs/pacu) ⭐ 5,303 \| 🐛 37 \| 🌐 Python \| 📅 2026-05-19                  | Open Source | AWS             | AWS exploitation framework for testing IAM abuse paths and cloud misconfigurations.                                  |
+| [Parliament](https://github.com/duo-labs/parliament) ⭐ 1,121 \| 🐛 52 \| 🌐 Python \| 📅 2026-01-07               | Open Source | AWS             | Lints IAM policies to catch privilege, wildcard, and risky permission issues early.                                  |
+| [Peirates](https://github.com/inguardians/peirates) ⭐ 1,472 \| 🐛 25 \| 🌐 Go \| 📅 2026-07-03                    | Open Source | AWS             | Simulates common Kubernetes-to-cloud privilege escalation paths in AWS environments.                                 |
+| [Permiso](https://permiso.io)                                                                                     | Commercial  | AWS, Azure, GCP | Identity-centric detection focused on cloud service account abuse.                                                   |
+| [PMapper](https://github.com/nccgroup/PMapper) ⭐ 1,574 \| 🐛 36 \| 🌐 Python \| 📅 2024-08-02                     | Open Source | AWS             | Privilege escalation path analysis for AWS IAM role relationships.                                                   |
+| [Policy Sentry](https://github.com/salesforce/policy_sentry) ⭐ 2,166 \| 🐛 9 \| 🌐 Python \| 📅 2026-08-09        | Open Source | AWS             | Builds and analyzes least-privilege IAM policies using an action and resource database model.                        |
+| [ROADtools](https://github.com/dirkjanm/ROADtools) ⭐ 2,690 \| 🐛 13 \| 🌐 Python \| 📅 2026-08-05                 | Open Source | Azure           | Enumerates Microsoft Entra (Azure AD) objects and relationships to map identity attack paths in tenant environments. |
+| [SkyArk](https://github.com/cyberark/SkyArk) ⭐ 911 \| 🐛 6 \| 🌐 PowerShell \| 📅 2024-12-17                      | Open Source | AWS             | Finds and assesses highly privileged AWS entities that increase account takeover risk.                               |
+| [Stratus Red Team](https://github.com/datadog/stratus-red-team) ⭐ 2,369 \| 🐛 71 \| 🌐 Go \| 📅 2026-08-12        | Open Source | AWS, Azure, GCP | Executes cloud attack emulation scenarios to validate detections and incident response workflows.                    |
+
+## Contribution Rules
+
+* Follow [`schema/tools.schema.json`](schema/tools.schema.json) exactly.
+* Keep entries objective, concise, and non-promotional.
+* Use `https://` vendor/project URLs only.
+* One tool per change is preferred for easier review.
+
+***
+
+Generated automatically from `data/tools.json` + `schema/tools.schema.json`.
+
+***
+
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-13._

@@ -1,0 +1,62 @@
+{
+  "items": [
+    {
+      "description": "",
+      "items": [],
+      "title": "Dataset Snapshot"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Tool Index"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "CSPM (7)"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "CNAPP (6)"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "IaC Security (11)"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Secrets Scanning (6)"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Container Security (7)"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Compliance as Code (11)"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "SBOM & Supply Chain (6)"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Cloud IAM Auditing (16)"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T04:06:30.822Z",
+    "original_repository": "g4r-tech/awesome-cloud-guardrails",
+    "original_repository_sha": "bfb379f3297415735ab4cd1079c93a12180f1272",
+    "enhanced_repository": "enhansome/enhansome-cloud-guardrails",
+    "enhanced_repository_description": null,
+    "title": "Awesome Cloud Guardrails with stars"
+  }
+}
