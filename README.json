@@ -1,7 +1,798 @@
 {
-  "items": [],
+  "items": [
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "AWS Inventory",
+              "description": "Open Source AWS Builds comprehensive cross-region AWS asset inventories for exposure and drift analysis.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 133691905,
+                "language": "Python",
+                "last_commit": "2024-04-05T12:41:09Z",
+                "owner": "nccgroup",
+                "repo": "aws-inventory",
+                "stars": 737
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CloudMapper",
+              "description": "Open Source AWS Visualizes AWS account relationships and attack paths for security review.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 118159195,
+                "language": "JavaScript",
+                "last_commit": "2024-07-15T08:42:49Z",
+                "owner": "duo-labs",
+                "repo": "cloudmapper",
+                "stars": 6288
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CloudSploit Scans",
+              "description": "Open Source AWS Large set of AWS security checks for identifying cloud misconfigurations at scale.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 38255391,
+                "language": "JavaScript",
+                "last_commit": "2026-07-28T11:32:15Z",
+                "owner": "aquasecurity",
+                "repo": "cloudsploit",
+                "stars": 3768
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Scout Suite",
+              "description": "Open Source AWS, Azure, GCP Multi-cloud security audit with visualized findings and drill-down.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 155376283,
+                "language": "Python",
+                "last_commit": "2025-09-23T18:33:52Z",
+                "owner": "nccgroup",
+                "repo": "ScoutSuite",
+                "stars": 7798
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Security Monkey",
+              "description": "Open Source AWS Monitors cloud account changes and flags policy and configuration drift.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 21290287,
+                "language": "Python",
+                "last_commit": "2021-02-11T02:32:12Z",
+                "owner": "Netflix",
+                "repo": "security_monkey",
+                "stars": 4371
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ZeusCloud",
+              "description": "Open Source AWS Open-source CSPM that builds an asset graph and prioritizes misconfigurations by exploit-path risk.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 599723612,
+                "language": "TypeScript",
+                "last_commit": "2023-10-26T16:44:28Z",
+                "owner": "Zeus-Labs",
+                "repo": "ZeusCloud",
+                "stars": 734
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "CSPM (7)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "cdk-nag",
+              "description": "Open Source AWS Applies security and compliance rules to AWS CDK constructs during development.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 387903003,
+                "language": "TypeScript",
+                "last_commit": "2026-08-17T22:54:09Z",
+                "owner": "cdklabs",
+                "repo": "cdk-nag",
+                "stars": 1035
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "cfn-nag",
+              "description": "Open Source AWS Lints CloudFormation templates to detect risky security configurations before deploy.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 51515624,
+                "language": "Ruby",
+                "last_commit": "2024-08-01T23:27:46Z",
+                "owner": "stelligent",
+                "repo": "cfn_nag",
+                "stars": 1309
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CFripper",
+              "description": "Open Source AWS Static analysis for CloudFormation templates that finds risky permissions and misconfigurations pre-deploy.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 139401647,
+                "language": "Python",
+                "last_commit": "2026-08-19T08:18:04Z",
+                "owner": "Skyscanner",
+                "repo": "cfripper",
+                "stars": 414
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CloudFormation Guard",
+              "description": "Open Source AWS Policy-as-code validation for CloudFormation templates to block insecure infrastructure before deployment.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 271888852,
+                "language": "Rust",
+                "last_commit": "2026-08-21T21:16:41Z",
+                "owner": "aws-cloudformation",
+                "repo": "cloudformation-guard",
+                "stars": 1385
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "KICS",
+              "description": "Open Source Multi Static analysis engine for Terraform, Kubernetes, and other IaC formats.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 278200746,
+                "language": "Open Policy Agent",
+                "last_commit": "2026-08-24T10:03:09Z",
+                "owner": "Checkmarx",
+                "repo": "kics",
+                "stars": 2693
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Terragoat",
+              "description": "Open Source AWS Deliberately vulnerable Terraform stack for testing IaC misconfiguration detection.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 250592027,
+                "language": "HCL",
+                "last_commit": "2025-07-13T12:11:17Z",
+                "owner": "bridgecrewio",
+                "repo": "terragoat",
+                "stars": 1305
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Terrascan",
+              "description": "Open Source Multi Policy-based IaC scanner with broad cloud provider and framework coverage.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 103084166,
+                "language": "Go",
+                "last_commit": "2025-11-20T19:37:10Z",
+                "owner": "tenable",
+                "repo": "terrascan",
+                "stars": 5211
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Yor",
+              "description": "Open Source AWS, Azure, GCP Automatically tags IaC resources with traceability metadata to strengthen ownership and control mapping.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 335331498,
+                "language": "Go",
+                "last_commit": "2026-08-09T04:59:09Z",
+                "owner": "bridgecrewio",
+                "repo": "yor",
+                "stars": 933
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "IaC Security (11)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "detect-secrets",
+              "description": "Open Source Multi Pre-commit focused secret scanner with baseline workflows for noisy repositories.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 113111650,
+                "language": "Python",
+                "last_commit": "2026-04-02T17:10:40Z",
+                "owner": "Yelp",
+                "repo": "detect-secrets",
+                "stars": 4626
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "git-secrets",
+              "description": "Open Source Multi Prevents committing AWS credentials and other secret patterns by hooking Git commit and history scans.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 39160150,
+                "language": "Shell",
+                "last_commit": "2025-09-17T20:31:20Z",
+                "owner": "awslabs",
+                "repo": "git-secrets",
+                "stars": 13379
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "GitGuardian ggshield",
+              "description": "Freemium Multi Developer-friendly secret detection in commits and CI pipelines with strong accuracy.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 257326204,
+                "language": "Python",
+                "last_commit": "2026-08-21T12:29:21Z",
+                "owner": "GitGuardian",
+                "repo": "ggshield",
+                "stars": 1990
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "shhgit",
+              "description": "Open Source Multi Real-time GitHub secret monitoring to quickly surface exposed credentials.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 206690330,
+                "language": "JavaScript",
+                "last_commit": "2025-02-28T15:41:48Z",
+                "owner": "eth0izzle",
+                "repo": "shhgit",
+                "stars": 3977
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Secrets Scanning (6)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Clair",
+              "description": "Open Source Multi Performs static vulnerability analysis of container images using continuously ingested CVE feeds across distributions.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 46140633,
+                "language": "Go",
+                "last_commit": "2026-08-24T14:06:46Z",
+                "owner": "quay",
+                "repo": "clair",
+                "stars": 11051
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "kube-bench",
+              "description": "Open Source Multi Runs CIS Kubernetes benchmark checks against cluster nodes and control planes.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 94779471,
+                "language": "Go",
+                "last_commit": "2026-08-18T08:46:23Z",
+                "owner": "aquasecurity",
+                "repo": "kube-bench",
+                "stars": 8150
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "kube-hunter",
+              "description": "Open Source Multi Performs active reconnaissance to identify exposed Kubernetes security weaknesses.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 141447532,
+                "language": "Python",
+                "last_commit": "2024-03-19T12:30:55Z",
+                "owner": "aquasecurity",
+                "repo": "kube-hunter",
+                "stars": 5077
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kubescape",
+              "description": "Open Source Multi Kubernetes posture scanner with framework mappings and risk prioritization guidance.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 395283401,
+                "language": "Go",
+                "last_commit": "2026-08-24T11:56:49Z",
+                "owner": "kubescape",
+                "repo": "kubescape",
+                "stars": 11685
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Trivy Operator",
+              "description": "Open Source Multi Brings continuous vulnerability and configuration scanning into Kubernetes clusters.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 489865430,
+                "language": "Go",
+                "last_commit": "2026-08-24T10:59:52Z",
+                "owner": "aquasecurity",
+                "repo": "trivy-operator",
+                "stars": 1929
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Container Security (7)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Automated Security Helper (ASH)",
+              "description": "Open Source AWS Runs multiple code and IaC security scanners in isolated containers with one aggregated security report.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 497513024,
+                "language": "Python",
+                "last_commit": "2026-08-24T03:09:32Z",
+                "owner": "awslabs",
+                "repo": "automated-security-helper",
+                "stars": 683
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "aws-nuke",
+              "description": "Open Source AWS Automates safe teardown of AWS resources to enforce clean account baselines.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 74891203,
+                "language": "Go",
+                "last_commit": "2024-10-15T07:47:29Z",
+                "owner": "rebuy-de",
+                "repo": "aws-nuke",
+                "stars": 5792
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Cloud-Nuke",
+              "description": "Open Source AWS Deletes cloud resources at scale to enforce clean account baselines and reduce stale attack surface.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 90905599,
+                "language": "Go",
+                "last_commit": "2026-07-27T14:18:49Z",
+                "owner": "gruntwork-io",
+                "repo": "cloud-nuke",
+                "stars": 3178
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CloudQuery",
+              "description": "Open Source Multi Extracts cloud configuration data into SQL tables for policy checks and reporting.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 313853293,
+                "language": "Go",
+                "last_commit": "2026-08-24T06:46:32Z",
+                "owner": "cloudquery",
+                "repo": "cloudquery",
+                "stars": 6492
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kubewarden",
+              "description": "Open Source Multi Admission policy framework using WebAssembly for portable Kubernetes enforcement.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 318490971,
+                "language": "Rust",
+                "last_commit": "2026-08-24T12:59:31Z",
+                "owner": "kubewarden",
+                "repo": "adm-controller",
+                "stars": 233
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kyverno",
+              "description": "Open Source Multi Kubernetes-native policy engine for enforceable guardrails and admission controls.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 169108858,
+                "language": "Go",
+                "last_commit": "2026-08-24T12:59:36Z",
+                "owner": "kyverno",
+                "repo": "kyverno",
+                "stars": 8064
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OPA Gatekeeper",
+              "description": "Open Source Multi Enforces OPA policies in Kubernetes through admission control with reusable constraint templates and audit reporting.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 154894457,
+                "language": "Go",
+                "last_commit": "2026-08-24T10:51:26Z",
+                "owner": "open-policy-agent",
+                "repo": "gatekeeper",
+                "stars": 4267
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Compliance as Code (11)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Cosign",
+              "description": "Open Source Multi Signs and verifies container images and artifacts to enforce trusted supply chain provenance.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 335952417,
+                "language": "Go",
+                "last_commit": "2026-08-19T15:42:49Z",
+                "owner": "sigstore",
+                "repo": "cosign",
+                "stars": 6228
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Grype",
+              "description": "Open Source Multi Vulnerability scanner designed to pair directly with generated SBOMs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 267054247,
+                "language": "Go",
+                "last_commit": "2026-08-21T20:54:47Z",
+                "owner": "anchore",
+                "repo": "grype",
+                "stars": 12782
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OSV-Scanner",
+              "description": "Open Source Multi Matches open-source dependencies against the OSV vulnerability database for accurate, actionable triage.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 565629124,
+                "language": "Go",
+                "last_commit": "2026-08-24T07:03:34Z",
+                "owner": "google",
+                "repo": "osv-scanner",
+                "stars": 10913
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Syft",
+              "description": "Open Source Multi Developer-friendly SBOM generator with broad package ecosystem support.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 262126497,
+                "language": "Go",
+                "last_commit": "2026-08-21T21:36:48Z",
+                "owner": "anchore",
+                "repo": "syft",
+                "stars": 9452
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "SBOM & Supply Chain (6)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Cartography",
+              "description": "Open Source Multi Graphs cloud assets and trust relationships to uncover risky access paths.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 172811550,
+                "language": "Python",
+                "last_commit": "2026-08-24T08:56:48Z",
+                "owner": "cartography-cncf",
+                "repo": "cartography",
+                "stars": 4023
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "cloudfox",
+              "description": "Open Source AWS, Azure, GCP Enumerates cloud attack paths and identity exposure from an attacker perspective for rapid triage.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 534023067,
+                "language": "Go",
+                "last_commit": "2026-08-20T18:39:52Z",
+                "owner": "BishopFox",
+                "repo": "cloudfox",
+                "stars": 2561
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CloudGoat",
+              "description": "Open Source AWS Purpose-built AWS scenarios for validating detection and IAM attack-path readiness.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 141209050,
+                "language": "Python",
+                "last_commit": "2026-04-28T13:43:43Z",
+                "owner": "RhinoSecurityLabs",
+                "repo": "cloudgoat",
+                "stars": 3704
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Cloudsplaining",
+              "description": "Open Source AWS Identifies risky IAM permissions and privilege-escalation patterns in AWS policies.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 256772852,
+                "language": "JavaScript",
+                "last_commit": "2026-08-16T15:36:30Z",
+                "owner": "salesforce",
+                "repo": "cloudsplaining",
+                "stars": 2243
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CloudTracker",
+              "description": "Open Source AWS Compares CloudTrail activity to granted IAM permissions to spot over-privileged identities.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 121786147,
+                "language": "Python",
+                "last_commit": "2021-12-17T21:37:36Z",
+                "owner": "duo-labs",
+                "repo": "cloudtracker",
+                "stars": 913
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "iam-floyd",
+              "description": "Open Source AWS Generates AWS IAM policies programmatically with a fluent interface to reduce policy authoring mistakes.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 268601916,
+                "language": "TypeScript",
+                "last_commit": "2026-08-22T01:40:01Z",
+                "owner": "udondan",
+                "repo": "iam-floyd",
+                "stars": 572
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "IAMSpy",
+              "description": "Open Source AWS Analyzes IAM permissions and trust paths to surface unintended access and escalation opportunities.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 518156588,
+                "language": "Python",
+                "last_commit": "2026-06-10T15:50:33Z",
+                "owner": "ReversecLabs",
+                "repo": "IAMSpy",
+                "stars": 234
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Pacu",
+              "description": "Open Source AWS AWS exploitation framework for testing IAM abuse paths and cloud misconfigurations.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 137276052,
+                "language": "Python",
+                "last_commit": "2026-05-19T22:31:37Z",
+                "owner": "RhinoSecurityLabs",
+                "repo": "pacu",
+                "stars": 5308
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Parliament",
+              "description": "Open Source AWS Lints IAM policies to catch privilege, wildcard, and risky permission issues early.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 208323795,
+                "language": "Python",
+                "last_commit": "2026-01-07T23:20:44Z",
+                "owner": "duo-labs",
+                "repo": "parliament",
+                "stars": 1121
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Peirates",
+              "description": "Open Source AWS Simulates common Kubernetes-to-cloud privilege escalation paths in AWS environments.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 173833386,
+                "language": "Go",
+                "last_commit": "2026-08-21T18:21:28Z",
+                "owner": "inguardians",
+                "repo": "peirates",
+                "stars": 1476
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "PMapper",
+              "description": "Open Source AWS Privilege escalation path analysis for AWS IAM role relationships.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 134493334,
+                "language": "Python",
+                "last_commit": "2024-08-02T15:38:29Z",
+                "owner": "nccgroup",
+                "repo": "PMapper",
+                "stars": 1575
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Policy Sentry",
+              "description": "Open Source AWS Builds and analyzes least-privilege IAM policies using an action and resource database model.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 209652627,
+                "language": "Python",
+                "last_commit": "2026-08-16T15:09:57Z",
+                "owner": "salesforce",
+                "repo": "policy_sentry",
+                "stars": 2166
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ROADtools",
+              "description": "Open Source Azure Enumerates Microsoft Entra (Azure AD) objects and relationships to map identity attack paths in tenant environments.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 250760872,
+                "language": "Python",
+                "last_commit": "2026-08-05T13:43:22Z",
+                "owner": "dirkjanm",
+                "repo": "ROADtools",
+                "stars": 2702
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "SkyArk",
+              "description": "Open Source AWS Finds and assesses highly privileged AWS entities that increase account takeover risk.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 125351578,
+                "language": "PowerShell",
+                "last_commit": "2024-12-17T15:34:58Z",
+                "owner": "cyberark",
+                "repo": "SkyArk",
+                "stars": 911
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Stratus Red Team",
+              "description": "Open Source AWS, Azure, GCP Executes cloud attack emulation scenarios to validate detections and incident response workflows.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 445524190,
+                "language": "Go",
+                "last_commit": "2026-08-19T08:42:37Z",
+                "owner": "DataDog",
+                "repo": "stratus-red-team",
+                "stars": 2377
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Cloud IAM Auditing (16)"
+        }
+      ],
+      "title": "Tool Index"
+    }
+  ],
   "metadata": {
-    "last_updated": "2026-08-24T03:15:45.920Z",
+    "last_updated": "2026-08-24T14:46:29.903Z",
     "original_repository": "g4r-tech/awesome-cloud-guardrails",
     "original_repository_id": 1174162245,
     "original_repository_sha": "bfb379f3297415735ab4cd1079c93a12180f1272",
