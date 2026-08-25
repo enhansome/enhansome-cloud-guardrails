@@ -62,7 +62,7 @@
                 "last_commit": "2025-09-23T18:33:52Z",
                 "owner": "nccgroup",
                 "repo": "ScoutSuite",
-                "stars": 7798
+                "stars": 7799
               }
             },
             {
@@ -111,7 +111,7 @@
                 "archived": false,
                 "id": 387903003,
                 "language": "TypeScript",
-                "last_commit": "2026-08-17T22:54:09Z",
+                "last_commit": "2026-08-24T22:13:11Z",
                 "owner": "cdklabs",
                 "repo": "cdk-nag",
                 "stars": 1035
@@ -156,7 +156,7 @@
                 "archived": false,
                 "id": 271888852,
                 "language": "Rust",
-                "last_commit": "2026-08-21T21:16:41Z",
+                "last_commit": "2026-08-25T01:14:41Z",
                 "owner": "aws-cloudformation",
                 "repo": "cloudformation-guard",
                 "stars": 1385
@@ -171,7 +171,7 @@
                 "archived": false,
                 "id": 278200746,
                 "language": "Open Policy Agent",
-                "last_commit": "2026-08-24T10:03:09Z",
+                "last_commit": "2026-08-24T21:17:19Z",
                 "owner": "Checkmarx",
                 "repo": "kics",
                 "stars": 2693
@@ -241,7 +241,7 @@
                 "last_commit": "2026-04-02T17:10:40Z",
                 "owner": "Yelp",
                 "repo": "detect-secrets",
-                "stars": 4626
+                "stars": 4628
               }
             },
             {
@@ -268,7 +268,7 @@
                 "archived": false,
                 "id": 257326204,
                 "language": "Python",
-                "last_commit": "2026-08-21T12:29:21Z",
+                "last_commit": "2026-08-24T17:42:59Z",
                 "owner": "GitGuardian",
                 "repo": "ggshield",
                 "stars": 1990
@@ -320,10 +320,10 @@
                 "archived": false,
                 "id": 94779471,
                 "language": "Go",
-                "last_commit": "2026-08-18T08:46:23Z",
+                "last_commit": "2026-08-24T19:32:49Z",
                 "owner": "aquasecurity",
                 "repo": "kube-bench",
-                "stars": 8150
+                "stars": 8151
               }
             },
             {
@@ -338,7 +338,7 @@
                 "last_commit": "2024-03-19T12:30:55Z",
                 "owner": "aquasecurity",
                 "repo": "kube-hunter",
-                "stars": 5077
+                "stars": 5078
               }
             },
             {
@@ -387,7 +387,7 @@
                 "archived": false,
                 "id": 497513024,
                 "language": "Python",
-                "last_commit": "2026-08-24T03:09:32Z",
+                "last_commit": "2026-08-25T03:07:07Z",
                 "owner": "awslabs",
                 "repo": "automated-security-helper",
                 "stars": 683
@@ -432,10 +432,10 @@
                 "archived": false,
                 "id": 313853293,
                 "language": "Go",
-                "last_commit": "2026-08-24T06:46:32Z",
+                "last_commit": "2026-08-24T18:27:46Z",
                 "owner": "cloudquery",
                 "repo": "cloudquery",
-                "stars": 6492
+                "stars": 6495
               }
             },
             {
@@ -462,10 +462,10 @@
                 "archived": false,
                 "id": 169108858,
                 "language": "Go",
-                "last_commit": "2026-08-24T12:59:36Z",
+                "last_commit": "2026-08-25T02:22:44Z",
                 "owner": "kyverno",
                 "repo": "kyverno",
-                "stars": 8064
+                "stars": 8066
               }
             },
             {
@@ -477,10 +477,10 @@
                 "archived": false,
                 "id": 154894457,
                 "language": "Go",
-                "last_commit": "2026-08-24T10:51:26Z",
+                "last_commit": "2026-08-24T22:39:49Z",
                 "owner": "open-policy-agent",
                 "repo": "gatekeeper",
-                "stars": 4267
+                "stars": 4268
               }
             }
           ],
@@ -499,10 +499,10 @@
                 "archived": false,
                 "id": 335952417,
                 "language": "Go",
-                "last_commit": "2026-08-19T15:42:49Z",
+                "last_commit": "2026-08-24T16:29:13Z",
                 "owner": "sigstore",
                 "repo": "cosign",
-                "stars": 6228
+                "stars": 6231
               }
             },
             {
@@ -517,7 +517,7 @@
                 "last_commit": "2026-08-21T20:54:47Z",
                 "owner": "anchore",
                 "repo": "grype",
-                "stars": 12782
+                "stars": 12785
               }
             },
             {
@@ -529,10 +529,10 @@
                 "archived": false,
                 "id": 565629124,
                 "language": "Go",
-                "last_commit": "2026-08-24T07:03:34Z",
+                "last_commit": "2026-08-24T21:05:47Z",
                 "owner": "google",
                 "repo": "osv-scanner",
-                "stars": 10913
+                "stars": 10914
               }
             },
             {
@@ -547,7 +547,7 @@
                 "last_commit": "2026-08-21T21:36:48Z",
                 "owner": "anchore",
                 "repo": "syft",
-                "stars": 9452
+                "stars": 9454
               }
             }
           ],
@@ -566,7 +566,7 @@
                 "archived": false,
                 "id": 172811550,
                 "language": "Python",
-                "last_commit": "2026-08-24T08:56:48Z",
+                "last_commit": "2026-08-25T02:07:46Z",
                 "owner": "cartography-cncf",
                 "repo": "cartography",
                 "stars": 4023
@@ -641,7 +641,7 @@
                 "archived": false,
                 "id": 268601916,
                 "language": "TypeScript",
-                "last_commit": "2026-08-22T01:40:01Z",
+                "last_commit": "2026-08-25T02:41:47Z",
                 "owner": "udondan",
                 "repo": "iam-floyd",
                 "stars": 572
@@ -701,7 +701,7 @@
                 "archived": false,
                 "id": 173833386,
                 "language": "Go",
-                "last_commit": "2026-08-21T18:21:28Z",
+                "last_commit": "2026-08-24T21:49:37Z",
                 "owner": "inguardians",
                 "repo": "peirates",
                 "stars": 1476
@@ -792,7 +792,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T14:46:29.903Z",
+    "last_updated": "2026-08-25T03:11:52.975Z",
     "original_repository": "g4r-tech/awesome-cloud-guardrails",
     "original_repository_id": 1174162245,
     "original_repository_sha": "bfb379f3297415735ab4cd1079c93a12180f1272",
