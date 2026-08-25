@@ -350,10 +350,10 @@
                 "archived": false,
                 "id": 395283401,
                 "language": "Go",
-                "last_commit": "2026-08-24T11:56:49Z",
+                "last_commit": "2026-08-25T06:37:02Z",
                 "owner": "kubescape",
                 "repo": "kubescape",
-                "stars": 11685
+                "stars": 11686
               }
             },
             {
@@ -462,10 +462,10 @@
                 "archived": false,
                 "id": 169108858,
                 "language": "Go",
-                "last_commit": "2026-08-25T02:22:44Z",
+                "last_commit": "2026-08-25T06:36:19Z",
                 "owner": "kyverno",
                 "repo": "kyverno",
-                "stars": 8066
+                "stars": 8068
               }
             },
             {
@@ -502,7 +502,7 @@
                 "last_commit": "2026-08-24T16:29:13Z",
                 "owner": "sigstore",
                 "repo": "cosign",
-                "stars": 6231
+                "stars": 6232
               }
             },
             {
@@ -517,7 +517,7 @@
                 "last_commit": "2026-08-21T20:54:47Z",
                 "owner": "anchore",
                 "repo": "grype",
-                "stars": 12785
+                "stars": 12784
               }
             },
             {
@@ -529,10 +529,10 @@
                 "archived": false,
                 "id": 565629124,
                 "language": "Go",
-                "last_commit": "2026-08-24T21:05:47Z",
+                "last_commit": "2026-08-25T06:21:58Z",
                 "owner": "google",
                 "repo": "osv-scanner",
-                "stars": 10914
+                "stars": 10915
               }
             },
             {
@@ -547,7 +547,7 @@
                 "last_commit": "2026-08-21T21:36:48Z",
                 "owner": "anchore",
                 "repo": "syft",
-                "stars": 9454
+                "stars": 9453
               }
             }
           ],
@@ -599,7 +599,7 @@
                 "last_commit": "2026-04-28T13:43:43Z",
                 "owner": "RhinoSecurityLabs",
                 "repo": "cloudgoat",
-                "stars": 3704
+                "stars": 3705
               }
             },
             {
@@ -779,7 +779,7 @@
                 "last_commit": "2026-08-19T08:42:37Z",
                 "owner": "DataDog",
                 "repo": "stratus-red-team",
-                "stars": 2377
+                "stars": 2379
               }
             }
           ],
@@ -792,7 +792,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T03:11:52.975Z",
+    "last_updated": "2026-08-25T06:38:35.475Z",
     "original_repository": "g4r-tech/awesome-cloud-guardrails",
     "original_repository_id": 1174162245,
     "original_repository_sha": "bfb379f3297415735ab4cd1079c93a12180f1272",
