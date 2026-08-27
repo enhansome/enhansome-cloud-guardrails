@@ -268,7 +268,7 @@
                 "archived": false,
                 "id": 257326204,
                 "language": "Python",
-                "last_commit": "2026-08-27T09:36:16Z",
+                "last_commit": "2026-08-27T11:48:28Z",
                 "owner": "GitGuardian",
                 "repo": "ggshield",
                 "stars": 1992
@@ -462,7 +462,7 @@
                 "archived": false,
                 "id": 169108858,
                 "language": "Go",
-                "last_commit": "2026-08-27T07:18:40Z",
+                "last_commit": "2026-08-27T12:17:02Z",
                 "owner": "kyverno",
                 "repo": "kyverno",
                 "stars": 8076
@@ -502,7 +502,7 @@
                 "last_commit": "2026-08-24T16:29:13Z",
                 "owner": "sigstore",
                 "repo": "cosign",
-                "stars": 6258
+                "stars": 6259
               }
             },
             {
@@ -792,7 +792,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:30:12.449Z",
+    "last_updated": "2026-08-27T12:45:39.442Z",
     "original_repository_info": {
       "archived": false,
       "id": 1174162245,
