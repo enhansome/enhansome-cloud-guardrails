@@ -503,7 +503,7 @@
                 "open_issues": 131,
                 "owner": "awslabs",
                 "repo": "git-secrets",
-                "stars": 13384,
+                "stars": 13385,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:19:26.018Z"
@@ -681,7 +681,7 @@
                 "open_issues": 65,
                 "owner": "kubescape",
                 "repo": "kubescape",
-                "stars": 11702,
+                "stars": 11703,
                 "topics": [
                   "best-practice",
                   "devops",
@@ -982,7 +982,7 @@
                 "open_issues": 402,
                 "owner": "anchore",
                 "repo": "grype",
-                "stars": 12799,
+                "stars": 12801,
                 "topics": [
                   "container-image",
                   "containers",
@@ -1045,7 +1045,7 @@
                 "open_issues": 630,
                 "owner": "anchore",
                 "repo": "syft",
-                "stars": 9474,
+                "stars": 9475,
                 "topics": [
                   "containers",
                   "cyclonedx",
@@ -1472,7 +1472,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T05:02:48.233Z",
+    "last_updated": "2026-08-29T09:00:12.414Z",
     "original_repository_info": {
       "archived": false,
       "description": "Schema-driven awesome list of cloud security guardrails powering cloudguardrail.com/tools",

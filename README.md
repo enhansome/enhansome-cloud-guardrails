@@ -80,7 +80,7 @@ Most lists are link dumps. This repo is a schema-driven dataset for a public dir
 | Tool                                                                                                           | Type        | Clouds | Why It Stands Out                                                                                      |
 | -------------------------------------------------------------------------------------------------------------- | ----------- | ------ | ------------------------------------------------------------------------------------------------------ |
 | [detect-secrets](https://github.com/Yelp/detect-secrets) ⭐ 4,630 \| 🐛 178 \| 🌐 Python \| 📅 2026-04-02       | Open Source | Multi  | Pre-commit focused secret scanner with baseline workflows for noisy repositories.                      |
-| [git-secrets](https://github.com/awslabs/git-secrets) ⭐ 13,384 \| 🐛 131 \| 🌐 Shell \| 📅 2025-09-17          | Open Source | Multi  | Prevents committing AWS credentials and other secret patterns by hooking Git commit and history scans. |
+| [git-secrets](https://github.com/awslabs/git-secrets) ⭐ 13,385 \| 🐛 131 \| 🌐 Shell \| 📅 2025-09-17          | Open Source | Multi  | Prevents committing AWS credentials and other secret patterns by hooking Git commit and history scans. |
 | [GitGuardian ggshield](https://github.com/GitGuardian/ggshield) ⭐ 1,994 \| 🐛 56 \| 🌐 Python \| 📅 2026-08-28 | Freemium    | Multi  | Developer-friendly secret detection in commits and CI pipelines with strong accuracy.                  |
 | [Gitleaks](https://gitleaks.io)                                                                                | Open Source | Multi  | Simple, fast, and CI-friendly scanner for leaked credentials.                                          |
 | [shhgit](https://github.com/eth0izzle/shhgit) ⭐ 3,977 \| 🐛 33 \| 🌐 JavaScript \| 📅 2025-02-28               | Open Source | Multi  | Real-time GitHub secret monitoring to quickly surface exposed credentials.                             |
@@ -95,7 +95,7 @@ Most lists are link dumps. This repo is a schema-driven dataset for a public dir
 | [Falco](https://falco.org)                                                                                   | Open Source | Multi  | Runtime threat detection for containers and Kubernetes workloads.                                                      |
 | [kube-bench](https://github.com/aquasecurity/kube-bench) ⭐ 8,160 \| 🐛 96 \| 🌐 Go \| 📅 2026-08-24          | Open Source | Multi  | Runs CIS Kubernetes benchmark checks against cluster nodes and control planes.                                         |
 | [kube-hunter](https://github.com/aquasecurity/kube-hunter) ⭐ 5,081 \| 🐛 82 \| 🌐 Python \| 📅 2024-03-19    | Open Source | Multi  | Performs active reconnaissance to identify exposed Kubernetes security weaknesses.                                     |
-| [Kubescape](https://github.com/kubescape/kubescape) ⭐ 11,702 \| 🐛 65 \| 🌐 Go \| 📅 2026-08-28              | Open Source | Multi  | Kubernetes posture scanner with framework mappings and risk prioritization guidance.                                   |
+| [Kubescape](https://github.com/kubescape/kubescape) ⭐ 11,703 \| 🐛 65 \| 🌐 Go \| 📅 2026-08-28              | Open Source | Multi  | Kubernetes posture scanner with framework mappings and risk prioritization guidance.                                   |
 | [Trivy Operator](https://github.com/aquasecurity/trivy-operator) ⭐ 1,932 \| 🐛 210 \| 🌐 Go \| 📅 2026-08-24 | Open Source | Multi  | Brings continuous vulnerability and configuration scanning into Kubernetes clusters.                                   |
 
 ### Compliance as Code (11)
@@ -120,10 +120,10 @@ Most lists are link dumps. This repo is a schema-driven dataset for a public dir
 | ------------------------------------------------------------------------------------------------- | ----------- | ------ | -------------------------------------------------------------------------------------------------------- |
 | [Cosign](https://github.com/sigstore/cosign) ⭐ 6,265 \| 🐛 172 \| 🌐 Go \| 📅 2026-08-24          | Open Source | Multi  | Signs and verifies container images and artifacts to enforce trusted supply chain provenance.            |
 | [Dependency-Track](https://dependencytrack.org)                                                   | Open Source | Multi  | Continuously analyzes SBOMs to monitor component risk across application portfolios over time.           |
-| [Grype](https://github.com/anchore/grype) ⭐ 12,799 \| 🐛 402 \| 🌐 Go \| 📅 2026-08-28            | Open Source | Multi  | Vulnerability scanner designed to pair directly with generated SBOMs.                                    |
+| [Grype](https://github.com/anchore/grype) ⭐ 12,801 \| 🐛 402 \| 🌐 Go \| 📅 2026-08-28            | Open Source | Multi  | Vulnerability scanner designed to pair directly with generated SBOMs.                                    |
 | [in-toto](https://in-toto.io)                                                                     | Open Source | Multi  | Generates cryptographic attestations for each supply chain step to detect tampering in build pipelines.  |
 | [OSV-Scanner](https://github.com/google/osv-scanner) ⭐ 10,939 \| 🐛 123 \| 🌐 Go \| 📅 2026-08-28 | Open Source | Multi  | Matches open-source dependencies against the OSV vulnerability database for accurate, actionable triage. |
-| [Syft](https://github.com/anchore/syft) ⭐ 9,474 \| 🐛 630 \| 🌐 Go \| 📅 2026-08-28               | Open Source | Multi  | Developer-friendly SBOM generator with broad package ecosystem support.                                  |
+| [Syft](https://github.com/anchore/syft) ⭐ 9,475 \| 🐛 630 \| 🌐 Go \| 📅 2026-08-28               | Open Source | Multi  | Developer-friendly SBOM generator with broad package ecosystem support.                                  |
 
 ### Cloud IAM Auditing (16)
 
