@@ -46,7 +46,7 @@
                 "open_issues": 211,
                 "owner": "duo-labs",
                 "repo": "cloudmapper",
-                "stars": 6291,
+                "stars": 6290,
                 "topics": [
                   "aws",
                   "cytoscape",
@@ -72,7 +72,7 @@
                 "open_issues": 212,
                 "owner": "aquasecurity",
                 "repo": "cloudsploit",
-                "stars": 3775,
+                "stars": 3776,
                 "topics": [
                   "alibaba",
                   "aqua",
@@ -443,7 +443,7 @@
                 "open_issues": 8,
                 "owner": "bridgecrewio",
                 "repo": "yor",
-                "stars": 930,
+                "stars": 931,
                 "topics": [
                   "cloud",
                   "cloudformation",
@@ -482,7 +482,7 @@
                 "open_issues": 178,
                 "owner": "Yelp",
                 "repo": "detect-secrets",
-                "stars": 4634,
+                "stars": 4635,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:19:26.018Z"
@@ -503,7 +503,7 @@
                 "open_issues": 131,
                 "owner": "awslabs",
                 "repo": "git-secrets",
-                "stars": 13391,
+                "stars": 13393,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:19:26.018Z"
@@ -557,7 +557,7 @@
                 "open_issues": 33,
                 "owner": "eth0izzle",
                 "repo": "shhgit",
-                "stars": 3981,
+                "stars": 3982,
                 "topics": [
                   "cyint",
                   "github",
@@ -626,7 +626,7 @@
                 "open_issues": 104,
                 "owner": "aquasecurity",
                 "repo": "kube-bench",
-                "stars": 8180,
+                "stars": 8181,
                 "topics": [
                   "cis-benchmark",
                   "cis-kubernetes-benchmark",
@@ -677,8 +677,8 @@
                 "id": 395283401,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-11T11:31:46Z",
-                "open_issues": 37,
+                "last_commit": "2026-09-13T07:14:55Z",
+                "open_issues": 40,
                 "owner": "kubescape",
                 "repo": "kubescape",
                 "stars": 11725,
@@ -749,7 +749,7 @@
                 "open_issues": 15,
                 "owner": "awslabs",
                 "repo": "automated-security-helper",
-                "stars": 693,
+                "stars": 694,
                 "topics": [
                   "aws",
                   "awslabs",
@@ -825,7 +825,7 @@
                 "open_issues": 166,
                 "owner": "cloudquery",
                 "repo": "cloudquery",
-                "stars": 6517,
+                "stars": 6519,
                 "topics": [
                   "airbyte",
                   "attack-surface-management",
@@ -863,7 +863,7 @@
                 "id": 318490971,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-12T02:56:47Z",
+                "last_commit": "2026-09-12T14:56:25Z",
                 "open_issues": 138,
                 "owner": "kubewarden",
                 "repo": "adm-controller",
@@ -891,10 +891,10 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-12T06:40:30Z",
-                "open_issues": 693,
+                "open_issues": 694,
                 "owner": "kyverno",
                 "repo": "kyverno",
-                "stars": 8137,
+                "stars": 8138,
                 "topics": [
                   "compliance",
                   "governance",
@@ -961,7 +961,7 @@
                 "open_issues": 166,
                 "owner": "sigstore",
                 "repo": "cosign",
-                "stars": 6296,
+                "stars": 6297,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:19:26.018Z"
@@ -979,7 +979,7 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-11T16:06:13Z",
-                "open_issues": 409,
+                "open_issues": 410,
                 "owner": "anchore",
                 "repo": "grype",
                 "stars": 12875,
@@ -1015,11 +1015,11 @@
                 "id": 565629124,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-11T21:00:26Z",
-                "open_issues": 114,
+                "last_commit": "2026-09-12T20:58:19Z",
+                "open_issues": 116,
                 "owner": "google",
                 "repo": "osv-scanner",
-                "stars": 11017,
+                "stars": 11019,
                 "topics": [
                   "scanner",
                   "security-audit",
@@ -1042,10 +1042,10 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-11T21:46:09Z",
-                "open_issues": 644,
+                "open_issues": 646,
                 "owner": "anchore",
                 "repo": "syft",
-                "stars": 9553,
+                "stars": 9555,
                 "topics": [
                   "containers",
                   "cyclonedx",
@@ -1081,11 +1081,11 @@
                 "id": 172811550,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-12T00:32:02Z",
-                "open_issues": 122,
+                "last_commit": "2026-09-12T19:28:55Z",
+                "open_issues": 125,
                 "owner": "cartography-cncf",
                 "repo": "cartography",
-                "stars": 4052,
+                "stars": 4054,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:19:26.018Z"
@@ -1134,7 +1134,7 @@
                 "open_issues": 24,
                 "owner": "RhinoSecurityLabs",
                 "repo": "cloudgoat",
-                "stars": 3726,
+                "stars": 3729,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:19:26.018Z"
@@ -1255,10 +1255,10 @@
                 "language": "Python",
                 "license": "BSD-3-Clause",
                 "last_commit": "2026-05-19T22:31:37Z",
-                "open_issues": 37,
+                "open_issues": 38,
                 "owner": "RhinoSecurityLabs",
                 "repo": "pacu",
-                "stars": 5326,
+                "stars": 5329,
                 "topics": [
                   "aws",
                   "aws-security",
@@ -1285,7 +1285,7 @@
                 "open_issues": 53,
                 "owner": "duo-labs",
                 "repo": "parliament",
-                "stars": 1122,
+                "stars": 1123,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:19:26.018Z"
@@ -1443,7 +1443,7 @@
                 "open_issues": 73,
                 "owner": "DataDog",
                 "repo": "stratus-red-team",
-                "stars": 2392,
+                "stars": 2393,
                 "topics": [
                   "adversary-emulation",
                   "aws",
@@ -1472,7 +1472,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-12T07:07:51.998Z",
+    "last_updated": "2026-09-13T07:26:54.745Z",
     "original_repository_info": {
       "archived": false,
       "description": "Schema-driven awesome list of cloud security guardrails powering cloudguardrail.com/tools",
