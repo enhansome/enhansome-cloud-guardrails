@@ -210,7 +210,7 @@
                 "language": "TypeScript",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-29T00:03:29Z",
-                "open_issues": 51,
+                "open_issues": 52,
                 "owner": "cdklabs",
                 "repo": "cdk-nag",
                 "stars": 1045,
@@ -557,7 +557,7 @@
                 "open_issues": 33,
                 "owner": "eth0izzle",
                 "repo": "shhgit",
-                "stars": 3986,
+                "stars": 3987,
                 "topics": [
                   "cyint",
                   "github",
@@ -626,7 +626,7 @@
                 "open_issues": 106,
                 "owner": "aquasecurity",
                 "repo": "kube-bench",
-                "stars": 8208,
+                "stars": 8209,
                 "topics": [
                   "cis-benchmark",
                   "cis-kubernetes-benchmark",
@@ -678,7 +678,7 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-02T16:26:35Z",
-                "open_issues": 48,
+                "open_issues": 50,
                 "owner": "kubescape",
                 "repo": "kubescape",
                 "stars": 11763,
@@ -749,7 +749,7 @@
                 "open_issues": 20,
                 "owner": "awslabs",
                 "repo": "automated-security-helper",
-                "stars": 695,
+                "stars": 696,
                 "topics": [
                   "aws",
                   "awslabs",
@@ -1092,7 +1092,7 @@
                 "open_issues": 137,
                 "owner": "cartography-cncf",
                 "repo": "cartography",
-                "stars": 4119,
+                "stars": 4118,
                 "topics": []
               },
               "first_seen": "2026-08-28T14:19:26.018Z"
@@ -1158,8 +1158,8 @@
                 "id": 256772852,
                 "language": "JavaScript",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-10-03T02:11:02Z",
-                "open_issues": 28,
+                "last_commit": "2026-10-03T06:54:37Z",
+                "open_issues": 26,
                 "owner": "salesforce",
                 "repo": "cloudsplaining",
                 "stars": 2250,
@@ -1479,7 +1479,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-03T04:36:06.979Z",
+    "last_updated": "2026-10-03T08:04:09.242Z",
     "original_repository_info": {
       "archived": false,
       "description": "Schema-driven awesome list of cloud security guardrails powering cloudguardrail.com/tools",
